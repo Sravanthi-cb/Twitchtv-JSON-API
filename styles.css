@@ -1,0 +1,13 @@
+.img{
+	max-height: 50px;
+	border-radius: 50%;	
+}
+
+
+.row {
+    text-align: center;
+    	
+}
+.col-md-4 {
+    display:inline-block;
+}
