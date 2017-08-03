@@ -24,9 +24,9 @@ $.getJSON('https://api.twitch.tv/kraken/streams/freecodecamp?client_id=agn02sjin
 	    
 	  $.getJSON('https://api.twitch.tv/kraken/streams/' + response.name + '?client_id=agn02sjinnmerxrzak626tuutu92ko').done(function(data2){
         
-		//var name = data2._links.self.slice(37);
+		
 		var name = response.name;
-        var logo = response.logo;
+                var logo = response.logo;
 		var status = response.status;
 	
 		if(data2.stream === null){
